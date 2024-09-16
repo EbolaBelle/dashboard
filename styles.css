@@ -25,6 +25,8 @@ li {
 
 .header {
     grid-column: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .content {
