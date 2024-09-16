@@ -1,5 +1,5 @@
 body {
-    box-sizing: border-box;
+    box-sizing: border-box;    
     margin: 0;
     padding: 0;
     display: grid;
@@ -7,10 +7,24 @@ body {
     grid-template-rows: 17vh 83vh;
 }
 
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .sidebar {
-    background-color: rgb(79, 79, 224);
+    background-color: rgb(79, 142, 224);
+    color: white;
     grid-column: 1;
     grid-row: 1 / -1;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+}
+
+.header {
+    grid-column: 2;
 }
 
 .content {
