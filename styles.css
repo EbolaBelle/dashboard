@@ -1,9 +1,16 @@
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 17vh 83vh;
 }
 
 .sidebar {
     background-color: rgb(79, 79, 224);
+    grid-column: 1;
+    grid-row: 1 / -1;
 }
 
 .content {
