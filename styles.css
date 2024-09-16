@@ -1,0 +1,11 @@
+body {
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: rgb(79, 79, 224);
+}
+
+.content {
+    background-color: gray;
+}
