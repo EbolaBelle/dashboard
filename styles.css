@@ -15,6 +15,32 @@ body {
 
 }
 
+.search,
+.welcome {
+    margin-left: 1rem;
+}
+
+#search {
+    border-radius: 10px;
+    width: 80%;
+    height: 1.6rem;
+    font-size: large;
+}
+
+#upload {
+    --margin: 10px;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+button {
+    padding: 5px 15px;
+    background-color: #172554;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
 * {
     background-color: inherit;
     box-sizing: border-box;
@@ -37,11 +63,17 @@ li {
     align-content: start;
 }
 
+.user-info,
+.header-buttons {
+    justify-self: center;
+}
+
 .header {
     background-color: #eff6ff;
     grid-column: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
 
 .content-wrapper {
