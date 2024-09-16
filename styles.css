@@ -4,7 +4,11 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 17vh 83vh;
+    grid-template-rows: 17vh 83vh;    
+}
+
+* {
+    background-color: inherit;
 }
 
 li {
@@ -29,6 +33,26 @@ li {
     grid-template-columns: 2fr 1fr;
 }
 
-.content {
-    background-color: gray;
+.content-wrapper {
+    background-color: rgb(201, 202, 207);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.card-box {
+    padding: 10px;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 70vh;
+    
+}
+
+.card {
+    background-color: white;
+    border-left: 10px solid gold;
+    border-radius: 10px;
 }
