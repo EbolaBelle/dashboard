@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 275px 1fr;
     grid-template-rows: 17vh 83vh;    
 }
 
@@ -32,12 +32,18 @@ body {
 
 .search {
     display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.search label {
+    display: flex;
 }
 
 #search {
     border-radius: 10px;
     width: 80%;
-    height: 1.6rem;
+    height: 2rem;
     font-size: large;
 }
 
@@ -46,9 +52,8 @@ body {
 }
 
 .magnify {
-    height: 1.5rem;
-    align-self: center;
-    margin-right: 3px;
+    height: 2rem;    
+    margin-right: 2rem;
 }
 
 button {
@@ -78,7 +83,7 @@ li {
     grid-row: 1 / -1;
     display: grid;    
     align-content: start;
-    width: 300px;
+   
 }
 
 .title-box {
