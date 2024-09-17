@@ -184,12 +184,26 @@ li {
     height: 75vh;    
 }
 
+.card-icons img {
+    height: 1.25rem;
+    margin: 0px 5px;
+}
+
+.card-icons {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
 .card {
     background-color: #eff6ff;
     border-left: 10px solid #1d4ed8;
     border-radius: 10px;
     height: 100%;
     padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
