@@ -15,6 +15,9 @@ body {
     font-family: 'robotoregular';
 }
 
+img {
+    display: inline;
+}
 
 @font-face {
     font-family: 'robotoregular';
@@ -54,6 +57,34 @@ body {
 .magnify {
     height: 2rem;    
     margin-right: 1.5rem;
+}
+
+.welcome {
+    display: flex;
+}
+
+.user-pic {
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-info img {
+    display: inline;
+}
+
+.bell {
+    height: 2rem;
+    margin-right: 2rem;
+}
+.prof-pic {
+    height: 3rem;
+    margin-right: 0.75rem;
 }
 
 button {
