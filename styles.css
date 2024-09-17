@@ -30,6 +30,10 @@ body {
     margin-left: 1rem;
 }
 
+.search {
+    display: flex;
+}
+
 #search {
     border-radius: 10px;
     width: 80%;
@@ -37,6 +41,15 @@ body {
     font-size: large;
 }
 
+#search:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.magnify {
+    height: 1.5rem;
+    align-self: center;
+    margin-right: 3px;
+}
 
 button {
     padding: 5px 15px;
