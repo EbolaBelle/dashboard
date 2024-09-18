@@ -46,7 +46,8 @@ body {
     font-size: large;
 }
 
-#search:hover {
+#search:hover,
+#search:focus {
     box-shadow: 1px 1px 5px gray;
 }
 
