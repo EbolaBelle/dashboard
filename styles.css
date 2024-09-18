@@ -238,3 +238,17 @@ li {
     border-bottom: 1px solid black;
     padding: 17px 0px;
 }
+
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.trend img {
+    height: 3rem;
+}
+
+.trend p {
+    font-size: small;
+}
