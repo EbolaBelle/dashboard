@@ -241,14 +241,19 @@ li {
 
 .trend {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .trend img {
     height: 3rem;
+    padding-right: 10px;
 }
 
 .trend p {
     font-size: small;
+}
+
+.trend div {
+    justify-self: start
 }
